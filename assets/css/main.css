@@ -2379,19 +2379,16 @@ input, select, textarea {
 	}*/
 
 	.video-container {
- 		position: absolute;
-  		top: 0;
- 		bottom: 0;
- 		max-width: 90%
+ 		position: relative;
+ 		max-width: 90%;
  		height: auto;
- 		overflow: hidden;
 	}
 	.video-container video {
-		max-width: 90%
+		max-width: 90%;
  		height: auto;
 
  		/* Center the video */
- 		position: absolute;
+ 		position: relative;
  		top: 50%;
   		left: 50%;
  		transform: translate(-50%,-50%);
@@ -2599,7 +2596,7 @@ input, select, textarea {
 		-webkit-flex-wrap: wrap;
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
-		postiion: relative;
+		position: relative;
 		margin: -2.5em 0 0 -2.5em;
 	}
 
