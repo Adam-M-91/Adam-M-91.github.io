@@ -2378,11 +2378,7 @@ input, select, textarea {
 		margin-bottom: 50px;
 	}*/
 
-	.video-container {
- 		position: relative;
- 		max-width: 90%;
- 		height: auto;
-	}
+	
 	.video-container video {
 		max-width: 90%;
  		height: auto;
