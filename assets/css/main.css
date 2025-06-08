@@ -2379,9 +2379,10 @@ input, select, textarea {
 	}*/
 
 	
-	video {
+	.video-container {
 		max-width: 90%;
  		height: auto;
+		margin-bottom: 50px;
 	}
 
 /* Table */
