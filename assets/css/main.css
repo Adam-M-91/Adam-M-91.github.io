@@ -2379,8 +2379,8 @@ input, select, textarea {
 	}*/
 
 	
-	.video-container {
-		max-width: 100%;
+	video {
+		max-width: 80%;
  		height: auto;
 		margin-bottom: 50px;
 	}
