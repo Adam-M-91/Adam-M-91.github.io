@@ -2379,15 +2379,9 @@ input, select, textarea {
 	}*/
 
 	
-	.video-container video {
+	video {
 		max-width: 90%;
  		height: auto;
-
- 		/* Center the video */
- 		position: relative;
- 		top: 50%;
-  		left: 50%;
- 		transform: translate(-50%,-50%);
 	}
 
 /* Table */
