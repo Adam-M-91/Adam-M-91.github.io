@@ -2370,6 +2370,12 @@ input, select, textarea {
 
 			}
 
+/* Video */
+
+	.video {
+		max-width: 90%;
+	}
+
 /* Table */
 
 	.table-wrapper {
