@@ -2385,13 +2385,6 @@ input, select, textarea {
 		margin-bottom: 50px;
 	}
 
-	@media screen and (max-width: 736px) {
-
-				.video-container {
-					margin: 0 2em 2em 0;
-				}
-
-			}
 
 /* Table */
 
