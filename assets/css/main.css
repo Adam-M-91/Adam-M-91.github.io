@@ -296,6 +296,12 @@ input, select, textarea {
 		margin: 2em 0;
 	}
 
+	hr.special-header {
+		border: 0;
+		border-bottom: solid 1px #c9c9c9;
+		margin: 1em 0;
+	}
+
 		hr.major {
 			margin: 3em 0;
 		}
@@ -451,6 +457,11 @@ input, select, textarea {
 
 		.row > .off-12 {
 			margin-left: 100%;
+		}
+
+		.row > .col-center {
+			display: flex;
+  			justify-content: center;
 		}
 
 		.row.gtr-0 {
@@ -2370,6 +2381,22 @@ input, select, textarea {
 
 			}
 
+/* Video */
+
+	/*div .video {
+		max-width: 90%;
+		height: auto;
+		margin-bottom: 50px;
+	}*/
+
+	
+	video {
+		max-width: 80%;
+ 		height: auto;
+		margin-bottom: 50px;
+	}
+
+
 /* Table */
 
 	.table-wrapper {
@@ -2572,7 +2599,7 @@ input, select, textarea {
 		-webkit-flex-wrap: wrap;
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
-		postiion: relative;
+		position: relative;
 		margin: -2.5em 0 0 -2.5em;
 	}
 
@@ -2829,7 +2856,7 @@ input, select, textarea {
 /* Header */
 
 	#header {
-		padding: 8em 0 0.1em 0 ;
+		padding: 6em 0 0.1em 0 ;
 	}
 
 		#header .logo {
